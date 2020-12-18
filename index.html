@@ -10,22 +10,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS-Rock Paper Scissors Game</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-  <h1>Rock Paper Scissors</h1>
-  <h2>Let's Play!</h2>
-  <div>
-    <h3>User :</h3>
-  </div>
-  <div>
-    <h3>Program :</h3>
-  </div>
-  <div>
-    <h2>Choose!</h2>
-    <button onclick="handleClick(1)"> Rock </button>
-    <button onclick="handleClick(2)"> Paper </button>
-    <button onclick="handleClick(3)"> Scissors </button>
-  </div>
-</body>
+    <h1>Lets Play Rock Paper Scissors!</h1>
+
+    <h1>Computer's Choice</h1>  
+    <h2 id ="compChoice">The computer threw:</h2>
+
+    <h1>User's Choice</h1>
+    <h2 id="userChoice">You threw:</h2>
+  
+    <h1>Game Result:</h1>
+    <h2 id="result"></h2>
+ 
+    <button class ="choices" id ="rock">Rock</button>
+    <button class ="choices" id ="paper">Paper</button>
+    <button class ="choices" id ="scissors">Scissors</button>
+
+    <script src="index.js"></script>
+  </body>
 </html>
